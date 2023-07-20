@@ -14,7 +14,8 @@ std::cin >> edad;
      else if
              (edad >65){
          std::cout << "Eres muy mayor, debes estar jubilado." << std::endl;
-     }else {
+     }
+     else {
              std::cout << "Eres menor de edad, mejor termina tus estudios." << std::endl;
      }
      return 0;
